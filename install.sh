@@ -18,7 +18,8 @@ fi
 
 set -x
 
-install -m 0644 -D walter-vga.theme "$DESTDIR/walter-vga.theme"
 install -m 0644 -D walter-amber.theme "$DESTDIR/walter-amber.theme"
+install -m 0644 -D walter-vga.theme "$DESTDIR/walter-vga.theme"
+install -m 0644 -D walter-light.theme "$DESTDIR/walter-light.theme"
 
 # EOB
